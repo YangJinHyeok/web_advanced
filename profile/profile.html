@@ -1,54 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="profile-style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <nav>
-        <img src="../basic/picture/logo1.png" class="logo">
-
-        <div class="nav-items">
-            <div>Home</div>
-            <div>About</div>
-            <div>Tech Stack</div>
-            <div>Projects</div>
-            <div>Contact</div>
+    <!-- navigation -->
+    <nav class="top-nav">
+        <img class="nav-logo" src="./picture/logo.png">
+        <ul class="nav-items">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Tech Stack</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class='nav-sns'>
+            <a href="https://github.com/yangjinhyeok"><img src="./picture/github.svg" alt="github" /></a>
+            <a href="#"><img src="./picture/twitter.svg" alt="twitter" /></a>
+            <a href="#"><img src="./picture/linkedin.svg" alt="linkedin" /></a>
         </div>
-        <img src="../basic/picture/Group 1.png" alt="로고" class="logo2">
     </nav>
-    <section>
-        <span class="information">
-            <h2>Hi 👋, My name is JinHyeok I build things for web</h2>
-            <img src="../basic/picture/picture.png" width="200px">
-        </span>
-    </section>
+    <!-- header -->
+    <header>
+        <h1> Hi 👋,<br> My name is <span class="gradient">JinHyeok</span><br>I build things for web</h1>
+        <img src="./picture/panda.jpg">
+    </header>
+    <!-- tech -->
     <section>
         <div class="tech">
             <h2>My Tech Stack</h2>
         </div>
         <div class="stack">
-            <img src="tech stacks.svg" width="400px">
+            <img src="./picture/tech stacks.svg" width="500px">
         </div>
     </section>
+    <!-- project -->
     <section>
-        <div class="project">
+        <div class="tech">
             <h2>Project</h2>
         </div>
         <div class="project-content">
-            <img src="쿼타랩.jpg" width="200px">
-            <img src="크아.jpg" width="200px">
+            <img src="./picture/쿼타랩.jpg" width="200px">
+            <img src="./picture/크아.jpg" width="200px">
         </div>
         <div class="project-text">
-            <p>OpenSource LLM을 활용한<br>AI ChatBot System</p>
-            <p>CrazyArcade 모작 개발</p>
+            <p><span class="title">OpenSource LLM을 활용한<br>AI ChatBot System</span><br><br>Next.js를 이용하여<br>AI상담 챗봇 사이트를 만들었습니다.</p>
+            <p><span class="title">CrazyArcade 모작 개발</span><br><br><br>Unity를 이용하여<br>크레이지아케이드 모작 개발을 하였습니다.</p>
         </div>
     </section>
-    <section>
-        <img src="Group 8.svg" width="1100px" class="footer">
-    </section>
-    
+    <!-- footer -->
+    <footer>
+        <div class="footer-upper">
+            <img class="footer-logo" src=" ./picture/logo.png" alt="logo" />
+            <div class="footer-content">
+                <div class="footer-contact">
+                    <a href="tel:+1234567890">010-1234-5678</a>
+                    <a href="yangjinhuck77@gmail.com">yangjinhuck77@gmail.com</a>
+                    <div class="footer-links">
+                        <a href="https://github.com/yangjinhyeok" target="_blank">
+                            <img src="./picture/github.svg" alt="github" />
+                        </a>
+                        <a href="#" target="_blank">
+                            <img src="./picture/linkedin.svg" alt="linkedin" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 가로 선 -->
+        <div class="hr"></div>
+        <div class="madeby">
+            Designed and built by Pavan <span>MG</span>
+            with <span>Love</span> & <span>Coffee</span>
+            &copy; 2024
+        </div>
+    </footer>    
 </body>
 </html>
