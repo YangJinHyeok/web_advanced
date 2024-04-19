@@ -22,6 +22,9 @@
 }
 
 body {
+    background: rgb(175, 225, 196);
+    background: linear-gradient(90deg, rgba(175, 225, 196, 0.7) 13%, rgba(158, 206, 223, 0.7) 38%, rgba(190, 204, 230, 0.7) 64%, rgba(223, 235, 214, 0.7) 84%, rgba(231, 237, 238, 0.7) 98%);
+
     font-family: TTLaundryGothicB;
     max-width: 1228px;
     margin: 0 auto;
@@ -81,7 +84,7 @@ header h1 {
     letter-spacing: -1px;
 }
 header h1 span {
-    background: linear-gradient(247deg, #3951dd -2.06%, #20f5f5 100%);
+    background: linear-gradient(247deg, #e72b2b -2.06%, #f59920 100%);
     background-clip: text;
     
     color: transparent; 
