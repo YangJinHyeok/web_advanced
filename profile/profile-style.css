@@ -212,6 +212,7 @@ footer {
     padding-top: 300px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer-logo {
@@ -228,6 +229,7 @@ footer {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
+    flex-wrap: wrap;
 }
 .footer-contact a {
     /* 기본속성으로 적용되어 있는 언더라인 제거 */
